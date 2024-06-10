@@ -74,6 +74,7 @@ create_port scan_clk -dir IN
 create_port SCAN_MODE -dir IN 
 #above can also be written as TEST_MODE
 create_port pll_bypass -dir IN
+#Extra scan chain inserted for testing.
 create_port TEST_SI2 -dir IN
 create_port TEST_SO2 -dir OUT
 
