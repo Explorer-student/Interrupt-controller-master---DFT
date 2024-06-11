@@ -3,16 +3,21 @@
 set DESIGN INTR_CNTRL
 
 
-   if {![file exist ./SPF] } {
+  if {![file exist ./SPF] } {
   sh mkdir -p ./SPF
   }
+  
   if {![file exist ./CTL]} {
   sh mkdir -p ./CTL
   }
+  
   if {![file exist ./REPORTS]} {
   sh mkdir -p ./REPORTS
   }
-
+  if {![file exist ./BIN]} {
+  sh mkdir -p ./BIN
+  }
+  
   if {![file exist ./OUTPUT_DATA]} {
   sh mkdir -p ./OUTPUT_DATA
   }
